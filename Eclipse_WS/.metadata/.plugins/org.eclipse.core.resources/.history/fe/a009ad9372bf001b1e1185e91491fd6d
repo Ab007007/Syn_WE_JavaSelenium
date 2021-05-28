@@ -1,0 +1,8 @@
+package com.synechron.javatraining.variables;
+
+public class Employee {
+
+	String empName;
+	String empID;
+	String empEmail;
+}

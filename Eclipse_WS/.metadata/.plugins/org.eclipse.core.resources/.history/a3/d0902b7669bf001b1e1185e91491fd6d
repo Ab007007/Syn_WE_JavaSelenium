@@ -1,0 +1,9 @@
+package com.synechron.javatraining.variables;
+
+public class VaiablesDemo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

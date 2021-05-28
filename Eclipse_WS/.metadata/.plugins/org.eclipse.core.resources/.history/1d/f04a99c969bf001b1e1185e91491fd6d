@@ -1,0 +1,14 @@
+package com.synechron.javatraining.variables;
+
+public class VaiablesDemo {
+	
+	// Global variable
+	
+	public static void main(String[] args)
+	{
+		
+		
+		
+	}
+
+}

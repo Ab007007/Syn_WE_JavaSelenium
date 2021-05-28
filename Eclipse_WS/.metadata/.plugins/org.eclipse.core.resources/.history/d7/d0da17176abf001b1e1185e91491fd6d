@@ -1,0 +1,18 @@
+package com.synechron.javatraining.variables;
+
+public class VaiablesDemo {
+	
+	// Global variable
+	
+	public static void main(String[] args)
+	{
+		//local variables
+		String name = "Aravinda";
+		int age = 38;
+		
+		System.out.println(name);
+		System.out.println(age);
+		
+	}
+
+}

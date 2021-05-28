@@ -1,0 +1,5 @@
+package com.synechron.javatraining.variables;
+
+public class Employee {
+
+}

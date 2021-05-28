@@ -1,0 +1,22 @@
+package com.synechron.javatraining.variables;
+
+public class Employee {
+
+	String empName;
+	String empID;
+	String empEmail;
+	
+	static String company = "Synechron";
+	
+	
+	public static void main(String[] args) {
+		System.out.println(company);
+		
+		Employee e1 = new Employee();
+		Employee e2 = new Employee();
+		
+		
+		System.out.println(empName);
+		
+	}
+}
