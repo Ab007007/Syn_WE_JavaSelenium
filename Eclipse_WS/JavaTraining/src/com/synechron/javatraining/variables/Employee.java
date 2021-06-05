@@ -8,6 +8,11 @@ public class Employee {
 	
 	static String company = "Synechron";
 	
+	
+	public Employee() {
+	
+	}
+	
 	static final String CEO = "AAAA";
 	
 	public static void main(String[] args) {
