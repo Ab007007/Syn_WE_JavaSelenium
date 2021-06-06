@@ -30,7 +30,8 @@ public class FluentWaitDemo {
 		FluentWait<WebElement> wait = new FluentWait<WebElement>(driver.findElement(By.id("demo")))
 				.withTimeout(Duration.ofSeconds(20))
 				.pollingEvery(Duration.ofMillis(100))
-				.ignoring(NoSuchElementException.class);
+				.ignoring(NoSuchElementException.class)
+				.ignoring(Exception.class);
 				
 		//STEP2
 		Function<WebElement, Boolean> fun = new Function<WebElement, Boolean>() {
@@ -53,6 +54,9 @@ public class FluentWaitDemo {
 		
 		//STEP3
 		wait.until(fun);
+	
+		
+		
 		String text1 = driver.findElement(By.id("demo")).getText();
 		String text2 = driver.findElement(By.id("demo2")).getText();
 		System.out.println(text1);
