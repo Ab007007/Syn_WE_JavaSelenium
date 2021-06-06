@@ -1,0 +1,5 @@
+WinWaitActive("Open")
+Sleep(3000)
+ControlSetText("Open","","Edit1","D:\Synechron_WE_JavaSelenium\toastmessage.png")
+Sleep(3000)
+ControlClick("Open","&Open","Button1")
