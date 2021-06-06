@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26565" started-at="2021-06-06T15:52:55 IST" finished-at="2021-06-06T15:53:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26565" started-at="2021-06-06T15:52:55 IST" finished-at="2021-06-06T15:53:22 IST">
+      <class name="com.testng.CreateMultipleCustomerTest">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="createDriver" is-config="true" duration-ms="3376" started-at="2021-06-06T15:52:55 IST" finished-at="2021-06-06T15:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="launchApplication(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="launchApplication" is-config="true" duration-ms="9412" started-at="2021-06-06T15:52:59 IST" finished-at="2021-06-06T15:53:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost/login.do]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="createCustomer(java.lang.String,java.lang.String)[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="createCustomer" duration-ms="7310" started-at="2021-06-06T15:53:08 IST" data-provider="createcustomerdata" finished-at="2021-06-06T15:53:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Syn-WE-TestNG-Cu8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Syn-WE-TestNG-Cu1-Desc6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="createCustomer(java.lang.String,java.lang.String)[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="createCustomer" duration-ms="6122" started-at="2021-06-06T15:53:15 IST" data-provider="createcustomerdata" finished-at="2021-06-06T15:53:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Syn-WE-TestNG-Cu9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Syn-WE-TestNG-Cu1-Desc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="logout" is-config="true" duration-ms="179" started-at="2021-06-06T15:53:21 IST" finished-at="2021-06-06T15:53:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="closeDriver" is-config="true" duration-ms="108" started-at="2021-06-06T15:53:22 IST" finished-at="2021-06-06T15:53:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.testng.CreateMultipleCustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
