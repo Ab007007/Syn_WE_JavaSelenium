@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>D:\Synechron_WE_JavaSelenium\Eclipse_WS\actitime\SanityTests.xml</span>
+                    <span>D:\Synechron_WE_JavaSelenium\Eclipse_WS\actitime\parallel.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.CreateMultipleCustomerTest" hash-for-method="createCustomer(Syn-WE-TestNG-Cu8, Syn-WE-TestNG-Cu1-Desc6)">createCustomer(Syn-WE-TestNG-Cu8, Syn-WE-TestNG-Cu1-Desc6)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.CreateCustomerTest" hash-for-method="createCustomer">createCustomer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.CreateMultipleCustomerTest" hash-for-method="createCustomer(Syn-WE-TestNG-Cu9, Syn-WE-TestNG-Cu1-Desc7)">createCustomer(Syn-WE-TestNG-Cu9, Syn-WE-TestNG-Cu1-Desc7)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.AugoSuggestions" hash-for-method="printAutoSuggestions">printAutoSuggestions</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,23 +127,29 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.testng.CreateMultipleCustomerTest</span>
+              <span class="class-name">com.testng.AugoSuggestions</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createCustomer(Syn-WE-TestNG-Cu8, Syn-WE-TestNG-Cu1-Desc6)">
-                  </a> <!-- createCustomer(Syn-WE-TestNG-Cu8, Syn-WE-TestNG-Cu1-Desc6) -->
-                  <span class="method-name">createCustomer</span>
-                  <span class="parameters">(Syn-WE-TestNG-Cu8, Syn-WE-TestNG-Cu1-Desc6)</span>
+                  <a name="printAutoSuggestions">
+                  </a> <!-- printAutoSuggestions -->
+                  <span class="method-name">printAutoSuggestions</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.CreateCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createCustomer(Syn-WE-TestNG-Cu9, Syn-WE-TestNG-Cu1-Desc7)">
-                  </a> <!-- createCustomer(Syn-WE-TestNG-Cu9, Syn-WE-TestNG-Cu1-Desc7) -->
+                  <a name="createCustomer">
+                  </a> <!-- createCustomer -->
                   <span class="method-name">createCustomer</span>
-                  <span class="parameters">(Syn-WE-TestNG-Cu9, Syn-WE-TestNG-Cu1-Desc7)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,21 +157,23 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Synechron_WE_JavaSelenium\Eclipse_WS\actitime\SanityTests.xml</span>
+            <span class="header-content">D:\Synechron_WE_JavaSelenium\Eclipse_WS\actitime\parallel.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;parameter name=&quot;password&quot; value=&quot;manager&quot;/&gt;
-  &lt;parameter name=&quot;url&quot; value=&quot;http://localhost/login.do&quot;/&gt;
-  &lt;parameter name=&quot;username&quot; value=&quot;admin&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Module-1&quot; parallel=&quot;tests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testng.CreateMultipleCustomerTest&quot;/&gt;
+      &lt;class name=&quot;com.testng.CreateCustomerTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
+  &lt;/test&gt; &lt;!-- Module-1 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Module-2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testng.AugoSuggestions&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Module-2 --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -177,7 +185,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Module-1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Module-2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -206,17 +217,17 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createCustomer')
-data.setCell(0, 2, 'com.testng.CreateMultipleCustomerTest')
-data.setCell(0, 3, 7310);
+data.setCell(0, 2, 'com.testng.CreateCustomerTest')
+data.setCell(0, 3, 9228);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'createCustomer')
-data.setCell(1, 2, 'com.testng.CreateMultipleCustomerTest')
-data.setCell(1, 3, 6122);
+data.setCell(1, 1, 'printAutoSuggestions')
+data.setCell(1, 2, 'com.testng.AugoSuggestions')
+data.setCell(1, 3, 852);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -227,6 +238,22 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printAutoSuggestions</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">synechron<br></span>
+                <span class="reporter-method-output">Synechron Technologies Pvt. Ltd.
+Software company · First and Fifth Floor, Tower B, Global Technology Park Devarabisanahalli, Bellandur, Bengaluru, Karnataka<br></span>
+                <span class="reporter-method-output">synechron technologies pvt ltd<br></span>
+                <span class="reporter-method-output">synechron glassdoor<br></span>
+                <span class="reporter-method-output">synechron technologies wiki<br></span>
+                <span class="reporter-method-output">synechron bangalore address<br></span>
+                <span class="reporter-method-output">synechron salary<br></span>
+                <span class="reporter-method-output">synechron bangalore office address<br></span>
+                <span class="reporter-method-output">synechron linkedin<br></span>
+                <span class="reporter-method-output">synechron cmmi level<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -242,30 +269,58 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testng.CreateMultipleCustomerTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.testng.CreateCustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">createDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.AugoSuggestions</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">createDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">launchApplication(http://localhost/login.do, admin, manager)</span>
-                <span class="method-start">3390 ms</span>
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">3539 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.CreateCustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">3563 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.AugoSuggestions</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">createCustomer(Syn-WE-TestNG-Cu8, Syn-WE-TestNG-Cu1-Desc6)</span>
-                <span class="method-start">12835 ms</span>
+                <span class="method-name">printAutoSuggestions</span>
+                <span class="method-start">6949 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">createCustomer(Syn-WE-TestNG-Cu9, Syn-WE-TestNG-Cu1-Desc7)</span>
-                <span class="method-start">20147 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">logout</span>
-                <span class="method-start">26271 ms</span>
-              </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">26451 ms</span>
+                <span class="method-start">7869 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.CreateCustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">7949 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomer</span>
+                <span class="method-start">13245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">22474 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">22688 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

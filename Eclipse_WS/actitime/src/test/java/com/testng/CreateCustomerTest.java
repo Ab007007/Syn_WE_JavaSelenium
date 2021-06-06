@@ -69,8 +69,8 @@ public class CreateCustomerTest
 		driver.findElement(By.xpath("//div[text()='Add New']")).click();
 		driver.findElement(By.xpath("//div[contains(text(),'New Customer')]")).click();
 		
-		driver.findElement(By.id("customerLightBox_nameField")).sendKeys("My Customer-3");
-		driver.findElement(By.id("customerLightBox_descriptionField")).sendKeys("My Customer-Desc-3");
+		driver.findElement(By.id("customerLightBox_nameField")).sendKeys("My Customer-5");
+		driver.findElement(By.id("customerLightBox_descriptionField")).sendKeys("My Customer-Desc-5");
 		driver.findElement(By.id("customerLightBox_commitBtn")).click();
 		
 		

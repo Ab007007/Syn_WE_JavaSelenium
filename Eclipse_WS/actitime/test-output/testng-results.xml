@@ -1,78 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[synechron<br>]]>
+    </line>
+    <line>
+      <![CDATA[Synechron Technologies Pvt. Ltd.
+Software company · First and Fifth Floor, Tower B, Global Technology Park Devarabisanahalli, Bellandur, Bengaluru, Karnataka<br>]]>
+    </line>
+    <line>
+      <![CDATA[synechron technologies pvt ltd<br>]]>
+    </line>
+    <line>
+      <![CDATA[synechron glassdoor<br>]]>
+    </line>
+    <line>
+      <![CDATA[synechron technologies wiki<br>]]>
+    </line>
+    <line>
+      <![CDATA[synechron bangalore address<br>]]>
+    </line>
+    <line>
+      <![CDATA[synechron salary<br>]]>
+    </line>
+    <line>
+      <![CDATA[synechron bangalore office address<br>]]>
+    </line>
+    <line>
+      <![CDATA[synechron linkedin<br>]]>
+    </line>
+    <line>
+      <![CDATA[synechron cmmi level<br>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26565" started-at="2021-06-06T15:52:55 IST" finished-at="2021-06-06T15:53:22 IST">
+  <suite name="Default suite" duration-ms="22779" started-at="2021-06-06T16:19:21 IST" finished-at="2021-06-06T16:19:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26565" started-at="2021-06-06T15:52:55 IST" finished-at="2021-06-06T15:53:22 IST">
-      <class name="com.testng.CreateMultipleCustomerTest">
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="createDriver" is-config="true" duration-ms="3376" started-at="2021-06-06T15:52:55 IST" finished-at="2021-06-06T15:52:59 IST">
+    <test name="Module-2" duration-ms="9716" started-at="2021-06-06T16:19:21 IST" finished-at="2021-06-06T16:19:30 IST">
+      <class name="com.testng.AugoSuggestions">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:com.testng.AugoSuggestions@612679d6]" name="createDriver" is-config="true" duration-ms="3519" started-at="2021-06-06T16:19:21 IST" finished-at="2021-06-06T16:19:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="launchApplication(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="launchApplication" is-config="true" duration-ms="9412" started-at="2021-06-06T15:52:59 IST" finished-at="2021-06-06T15:53:08 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://localhost/login.do]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[manager]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.testng.AugoSuggestions@612679d6]" name="launchApplication" is-config="true" duration-ms="3398" started-at="2021-06-06T16:19:24 IST" finished-at="2021-06-06T16:19:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="createCustomer(java.lang.String,java.lang.String)[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="createCustomer" duration-ms="7310" started-at="2021-06-06T15:53:08 IST" data-provider="createcustomerdata" finished-at="2021-06-06T15:53:15 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Syn-WE-TestNG-Cu8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Syn-WE-TestNG-Cu1-Desc6]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="printAutoSuggestions()[pri:0, instance:com.testng.AugoSuggestions@612679d6]" name="printAutoSuggestions" duration-ms="852" started-at="2021-06-06T16:19:28 IST" finished-at="2021-06-06T16:19:29 IST">
           <reporter-output>
+            <line>
+              <![CDATA[synechron<br>]]>
+            </line>
+            <line>
+              <![CDATA[Synechron Technologies Pvt. Ltd.
+Software company · First and Fifth Floor, Tower B, Global Technology Park Devarabisanahalli, Bellandur, Bengaluru, Karnataka<br>]]>
+            </line>
+            <line>
+              <![CDATA[synechron technologies pvt ltd<br>]]>
+            </line>
+            <line>
+              <![CDATA[synechron glassdoor<br>]]>
+            </line>
+            <line>
+              <![CDATA[synechron technologies wiki<br>]]>
+            </line>
+            <line>
+              <![CDATA[synechron bangalore address<br>]]>
+            </line>
+            <line>
+              <![CDATA[synechron salary<br>]]>
+            </line>
+            <line>
+              <![CDATA[synechron bangalore office address<br>]]>
+            </line>
+            <line>
+              <![CDATA[synechron linkedin<br>]]>
+            </line>
+            <line>
+              <![CDATA[synechron cmmi level<br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- createCustomer -->
-        <test-method status="PASS" signature="createCustomer(java.lang.String,java.lang.String)[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="createCustomer" duration-ms="6122" started-at="2021-06-06T15:53:15 IST" data-provider="createcustomerdata" finished-at="2021-06-06T15:53:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Syn-WE-TestNG-Cu9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Syn-WE-TestNG-Cu1-Desc7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCustomer -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="logout" is-config="true" duration-ms="179" started-at="2021-06-06T15:53:21 IST" finished-at="2021-06-06T15:53:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.testng.CreateMultipleCustomerTest@1d8d30f7]" name="closeDriver" is-config="true" duration-ms="108" started-at="2021-06-06T15:53:22 IST" finished-at="2021-06-06T15:53:22 IST">
+        </test-method> <!-- printAutoSuggestions -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.testng.AugoSuggestions@612679d6]" name="closeDriver" is-config="true" duration-ms="1841" started-at="2021-06-06T16:19:29 IST" finished-at="2021-06-06T16:19:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- com.testng.CreateMultipleCustomerTest -->
-    </test> <!-- Default test -->
+      </class> <!-- com.testng.AugoSuggestions -->
+    </test> <!-- Module-2 -->
+    <test name="Module-1" duration-ms="22779" started-at="2021-06-06T16:19:21 IST" finished-at="2021-06-06T16:19:43 IST">
+      <class name="com.testng.CreateCustomerTest">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:com.testng.CreateCustomerTest@1a1d6a08]" name="createDriver" is-config="true" duration-ms="3562" started-at="2021-06-06T16:19:21 IST" finished-at="2021-06-06T16:19:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.testng.CreateCustomerTest@1a1d6a08]" name="launchApplication" is-config="true" duration-ms="4384" started-at="2021-06-06T16:19:24 IST" finished-at="2021-06-06T16:19:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testng.CreateCustomerTest@1a1d6a08]" name="login" is-config="true" duration-ms="5295" started-at="2021-06-06T16:19:29 IST" finished-at="2021-06-06T16:19:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:com.testng.CreateCustomerTest@1a1d6a08]" name="createCustomer" duration-ms="9228" started-at="2021-06-06T16:19:34 IST" finished-at="2021-06-06T16:19:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.testng.CreateCustomerTest@1a1d6a08]" name="logout" is-config="true" duration-ms="214" started-at="2021-06-06T16:19:43 IST" finished-at="2021-06-06T16:19:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.testng.CreateCustomerTest@1a1d6a08]" name="closeDriver" is-config="true" duration-ms="85" started-at="2021-06-06T16:19:43 IST" finished-at="2021-06-06T16:19:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.testng.CreateCustomerTest -->
+    </test> <!-- Module-1 -->
   </suite> <!-- Default suite -->
 </testng-results>
